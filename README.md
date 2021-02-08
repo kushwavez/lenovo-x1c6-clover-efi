@@ -59,8 +59,8 @@
 ### Issues ⚠️
 - Although we have OpenIntelWireless for Intel WiFi, it’s quite unusable in my case (v1.1.0). It’s really slow (4 MB/s) and disconnecting quite often, the ping is also really high sometimes (spiking up to ~3000ms when pinging google.com). Sleep also breaks the connection. For reconnecting I have to reboot the whole system. Bluetooth quality is also really bad unfortunately, also disconnecting quite often.
   - I suggest everyone to just get a compatible BCM94360NG or an original Apple BCM94360CS2 with an adapter for OOB support, excellent speed, AirDrop & Handoff support and for best Bluetooth quality (you can buy these cards from ebay, Aliexpress or Amazon)
-  - HDMI isn't working if you start the system with plugged in, disconnect before start and reconnect it after macOS is up and running
-  - HDMI breaks after sleep/wake, need to re-plug
+- HDMI isn't working if you start the system with plugged in, disconnect before start and reconnect it after macOS is up and running
+- HDMI breaks after sleep/wake, need to re-plug
 
 ### Not tested ❔
 - Hibernation
