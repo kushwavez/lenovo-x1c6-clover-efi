@@ -10,7 +10,7 @@
 		<dict>
 			<key>#EnableC4</key>
 			<false/>
-			<key>#EnableC7</key>
+			<key>#NoOemTableId</key>
 			<false/>
 			<key>#PluginType</key>
 			<integer>0</integer>
@@ -18,25 +18,27 @@
 			<true/>
 			<key>#EnableC2</key>
 			<false/>
+			<key>PluginType</key>
+			<string>1</string>
 			<key>#MaxMultiplier</key>
 			<integer>12</integer>
-			<key>#C3Latency</key>
-			<string>0x03E7</string>
+			<key>#DropOem</key>
+			<true/>
 			<key>#EnableC6</key>
 			<true/>
 			<key>#MinMultiplier</key>
 			<integer>8</integer>
+			<key>#C3Latency</key>
+			<string>0x03E7</string>
 			<key>#UnderVoltStep</key>
 			<integer>1</integer>
-			<key>#DropOem</key>
-			<true/>
 			<key>#PLimitDict</key>
 			<integer>1</integer>
+			<key>#NoDynamicExtract</key>
+			<false/>
 			<key>#UseSystemIO</key>
 			<false/>
-			<key>#NoOemTableId</key>
-			<false/>
-			<key>#NoDynamicExtract</key>
+			<key>#EnableC7</key>
 			<false/>
 			<key>Generate</key>
 			<dict>
@@ -91,6 +93,16 @@
 			<array>
 				<dict>
 					<key>Find</key>
+					<data>SEVDSQ==</data>
+					<key>Replace</key>
+					<data>SU1FSQ==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+				</dict>
+				<dict>
+					<key>Find</key>
 					<data>X0RTTQ==</data>
 					<key>Replace</key>
 					<data>WERTTQ==</data>
@@ -98,6 +110,16 @@
 					<false/>
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>R0ZYMA==</data>
+					<key>Replace</key>
+					<data>SUdQVQ==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
 				</dict>
 				<dict>
 					<key>Find</key>
@@ -565,10 +587,10 @@
 		<array/>
 		<key>#PatchVBios</key>
 		<false/>
-		<key>#FBName</key>
-		<string>Makakakakala</string>
 		<key>#VRAM</key>
 		<integer>1024</integer>
+		<key>#FBName</key>
+		<string>Makakakakala</string>
 		<key>#RadeonDeInit</key>
 		<true/>
 		<key>#PatchVBiosBytes</key>
@@ -595,10 +617,10 @@
 			<string>0xA1</string>
 			<key>#Custom</key>
 			<data>AP///////wAGECGSAAAAAAASAQOAIRV4CunVmVlTjigmUFQAAAABAQEBAQEBAQEBAQEBAQEB3iGgcFCEHzAgIFYAS88QAAAY3iGgcFCEHzAgIFYAS88QAAAAAAAA/gBXNjU3RwAxNTRXUDEKAAAA/gAjMz1IZYSq/wIBCiAgAJo=</data>
-			<key>#Inject</key>
-			<true/>
 			<key>#VendorID</key>
 			<string>0x1006</string>
+			<key>#Inject</key>
+			<true/>
 		</dict>
 		<key>#display-cfg</key>
 		<string>03010300FFFF0001</string>
@@ -872,13 +894,13 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02820100QXJH4R1H</string>
+		<string>C02846104QXJH4RJA</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SmUUID</key>
-		<string>BF757D11-EA81-4CC3-9459-B2EE4F853F8B</string>
+		<string>87F78C94-9E1E-44C2-9368-5D5BF1C35F88</string>
 		<key>Mobile</key>
 		<true/>
 		<key>BoardType</key>
@@ -886,7 +908,7 @@
 		<key>EfiVersion</key>
 		<string>1554.80.3.0.0</string>
 		<key>SerialNumber</key>
-		<string>C02WQ0SQJHCC</string>
+		<string>C02XPYYJJHCC</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>

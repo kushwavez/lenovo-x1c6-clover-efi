@@ -1,5 +1,11 @@
 #  Lenovo X1 Carbon 6th Clover - macOS Big Sur EFI
 
+## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Big Sur 11 - Windows 10]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
+
+## Clover v5129 (unofficial, compiled from source) - Big Sur 11.2
+
+## Use "config_debug.plist" if something's went wrong to see debug messages
+
 ### Specifications:
 - BIOS: v1.50
 - CPU: i5-8250U (Kaby Lake-R, 1.6 GHz up to 3.4 GHz, Quad-Core)
@@ -8,7 +14,7 @@
 - RAM: 8 GB DDR3 2133MHz
 - Audio: ALC3286
 - SSD: KINGSTON SA2000M8500G (500 GB NVMe) (~2400 MB/s read, ~2000 MB/s write)
-- WiFi & Bluetooth: Intel AC-8265 M.2 (replaced to BCM94360NG)
+- WiFi & Bluetooth: Intel AC-8265 NGFF M.2 (replaced to BCM94360NG)
 - Fingerprint reader
 - HD webcam
 - Multigesture SMBus/RMI Synaptics touchpad with 3 buttons
@@ -61,16 +67,27 @@
   - I suggest everyone to just get a compatible BCM94360NG or an original Apple BCM94360CS2 with an adapter for OOB support, excellent speed, AirDrop & Handoff support and for best Bluetooth quality (you can buy these cards from ebay, Aliexpress or Amazon)
 - HDMI isn't working if you start the system with plugged in, disconnect before start and reconnect it after macOS is up and running
 - HDMI breaks after sleep/wake, need to re-plug
+- Audio sometimes just goes blank at random, combo-jack also doesn't recognise the combo-jack sometimes (garbled sound output): A sleep/wake solves the problem most of the time, issue needs to be debugged and reported to the Acidanthera team
 
 ### Not tested ❔
 - Hibernation
 - Sidecar (no equipment, should work)
 
 ## Post Installation:
-- Open up your config.plist with Clover Configurator and generate a new SMBIOS, then after restart you can login to iCloud now
+- Open up your config.plist with Clover Configurator and generate a new SMBIOS, then after restart, you can login to iCloud now
 
 ### My Windows 10 Dual-boot Guide:
 https://www.insanelymac.com/forum/topic/346365-guide-dual-boot-for-windows-10-and-macos-on-the-same-disk-windows-installed-first-macos-installed-first-empty-drive/
 
-credits: 
-@tylernguyen for the SSDTs
+## Notes:
+- If you're using Intel WiFi card, you'll need [itlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) for Bluetooth. Download them and place to "CLOVER/kexts/Other", and delete "AirportBrcmFixup.kext" and "BrcmBluetoothInjector.kext"
+- This Clover version is unofficial, compiled from source, because it contains necessary updates for kext ordering (for VoodooRMI)
+
+Credits: 
+[@tylernguyen](https://github.com/tylernguyen) for the TB3 SSDTs
+[@CloverHackyColor](https://github.com/CloverHackyColor) ([@jief666](https://github.com/jief666), [@SergeySlice](https://github.com/SergeySlice)) for Clover Bootloader
+[@zhen-hen](https://github.com/zhen-zen) for YogaSMC app and kext
+[@1Revenger1](https://github.com/1Revenger1) for VoodooRMI
+[@sinetek](https://github.com/sinetek) for Sinetek-rtsx
+[@hieplpvip](https://github.com/hieplpvip) for AppleBacklightSmoother
+[@acidanthera](https://github.com/acidanthera) for other necessary kexts
