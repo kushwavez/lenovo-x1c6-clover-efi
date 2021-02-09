@@ -83,11 +83,11 @@ https://www.insanelymac.com/forum/topic/346365-guide-dual-boot-for-windows-10-an
 - If you're using Intel WiFi card, you'll need [itlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) for Bluetooth. Download them and place to "CLOVER/kexts/Other", and delete "AirportBrcmFixup.kext" and "BrcmBluetoothInjector.kext"
 - This Clover version is unofficial, compiled from source, because it contains necessary updates for kext ordering (for VoodooRMI)
 
-Credits: 
-[@tylernguyen](https://github.com/tylernguyen) for the TB3 SSDTs
-[@CloverHackyColor](https://github.com/CloverHackyColor) ([@jief666](https://github.com/jief666), [@SergeySlice](https://github.com/SergeySlice)) for Clover Bootloader
-[@zhen-hen](https://github.com/zhen-zen) for YogaSMC app and kext
-[@1Revenger1](https://github.com/1Revenger1) for VoodooRMI
-[@sinetek](https://github.com/sinetek) for Sinetek-rtsx
-[@hieplpvip](https://github.com/hieplpvip) for AppleBacklightSmoother
-[@acidanthera](https://github.com/acidanthera) for other necessary kexts
+### Credits: 
+- [@tylernguyen](https://github.com/tylernguyen) for the TB3 SSDTs
+- [@CloverHackyColor](https://github.com/CloverHackyColor) ([@jief666](https://github.com/jief666), [@SergeySlice](https://github.com/SergeySlice)) for Clover Bootloader
+- [@zhen-hen](https://github.com/zhen-zen) for YogaSMC app and kext
+- [@1Revenger1](https://github.com/1Revenger1) for VoodooRMI
+- [@sinetek](https://github.com/sinetek) for Sinetek-rtsx
+- [@hieplpvip](https://github.com/hieplpvip) for AppleBacklightSmoother
+- [@acidanthera](https://github.com/acidanthera) for other necessary kexts
