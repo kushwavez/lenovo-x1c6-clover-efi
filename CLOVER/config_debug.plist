@@ -12,8 +12,6 @@
 			<false/>
 			<key>#EnableC7</key>
 			<false/>
-			<key>#PluginType</key>
-			<integer>0</integer>
 			<key>#DoubleFirstState</key>
 			<true/>
 			<key>#EnableC2</key>
@@ -46,8 +44,6 @@
 				<false/>
 				<key>PluginType</key>
 				<true/>
-				<key>#PluginType</key>
-				<false/>
 				<key>PStates</key>
 				<true/>
 				<key>#APSN</key>
@@ -388,7 +384,7 @@
 		<key>DisableCloverHotkeys</key>
 		<false/>
 		<key>Arguments</key>
-		<string>rtcfx_exclude=80-AB -v debug=0x100</string>
+		<string>-v debug=0x100</string>
 		<key>NeverDoRecovery</key>
 		<true/>
 		<key>RtcHibernateAware</key>

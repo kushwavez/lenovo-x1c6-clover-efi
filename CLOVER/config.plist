@@ -12,8 +12,6 @@
 			<false/>
 			<key>#NoOemTableId</key>
 			<false/>
-			<key>#PluginType</key>
-			<integer>0</integer>
 			<key>#DoubleFirstState</key>
 			<true/>
 			<key>#EnableC2</key>
@@ -46,8 +44,6 @@
 				<false/>
 				<key>PluginType</key>
 				<true/>
-				<key>#PluginType</key>
-				<false/>
 				<key>PStates</key>
 				<true/>
 				<key>#APSN</key>
@@ -384,7 +380,7 @@
 		<key>NeverHibernate</key>
 		<false/>
 		<key>Arguments</key>
-		<string>rtcfx_exclude=80-AB</string>
+		<string></string>
 		<key>DisableCloverHotkeys</key>
 		<false/>
 		<key>NeverDoRecovery</key>
