@@ -62,13 +62,14 @@
 - TrackPad, TrackPoint and Keyboard (incl. native multi-gestures, FN keys)
 - FileVault
 - Battery (~0.5 W when TB3 hot-plug is disabled, ~2W when enabled)
-- Sleep
+- Sleep (PowerNap disabled)
 - Power Management
 - Webcam
 - SIP is enabled by default
 
 ### What isn’t working ❌
 - Fingerprint reader (disabled in BIOS)
+- Hibernation
 
 ### Issues ⚠️
 - Although we have OpenIntelWireless for Intel WiFi, it’s quite unusable in my case (v1.1.0). It’s really slow (4 MB/s) and disconnecting quite often, the ping is also really high sometimes (spiking up to ~3000ms when pinging google.com). Sleep also breaks the connection. For reconnecting I have to reboot the whole system. Bluetooth quality is also really bad unfortunately, also disconnecting quite often.
@@ -78,7 +79,6 @@
 - Audio sometimes just goes blank at random, combo-jack also doesn't recognise the combo-jack sometimes (garbled sound output): A sleep/wake solves the problem most of the time, issue needs to be debugged and reported to the Acidanthera team
 
 ### Not tested ❔
-- Hibernation
 - Sidecar (no equipment, should work)
 
 ## Post Installation:
