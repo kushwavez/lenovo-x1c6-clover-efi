@@ -3,8 +3,12 @@
 ## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Big Sur 11 - Windows 10]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 
 ## Clover v5130 - Big Sur 11.2.1
-<img align="center" src="https://i.ibb.co/2FTNg5t/lenovo-x1-carbon-6th-20kh-png-45213fcfbc31a832fd51995162ddf9c3.png">
-<img align="center" src="https://i.ibb.co/jv9SkRp/Screenshot-2021-02-14-at-20-24-31.png">
+<p align="center">
+  <img src="https://i.ibb.co/2FTNg5t/lenovo-x1-carbon-6th-20kh-png-45213fcfbc31a832fd51995162ddf9c3.png">
+</p>
+<p align="center">
+<img src="https://i.ibb.co/jv9SkRp/Screenshot-2021-02-14-at-20-24-31.png">
+</p>
 
 ## Use "config_debug.plist" if something's went wrong to see debug messages
 
