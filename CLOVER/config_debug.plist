@@ -10,7 +10,7 @@
 		<dict>
 			<key>#EnableC4</key>
 			<false/>
-			<key>#EnableC7</key>
+			<key>#UseSystemIO</key>
 			<false/>
 			<key>#DoubleFirstState</key>
 			<true/>
@@ -22,12 +22,12 @@
 			<integer>12</integer>
 			<key>#DropOem</key>
 			<true/>
-			<key>#UnderVoltStep</key>
-			<integer>1</integer>
-			<key>#MinMultiplier</key>
-			<integer>8</integer>
 			<key>#EnableC6</key>
 			<true/>
+			<key>#MinMultiplier</key>
+			<integer>8</integer>
+			<key>#UnderVoltStep</key>
+			<integer>1</integer>
 			<key>#C3Latency</key>
 			<string>0x03E7</string>
 			<key>#PLimitDict</key>
@@ -36,7 +36,7 @@
 			<false/>
 			<key>#NoDynamicExtract</key>
 			<false/>
-			<key>#UseSystemIO</key>
+			<key>#EnableC7</key>
 			<false/>
 			<key>Generate</key>
 			<dict>
@@ -579,10 +579,10 @@
 		<array/>
 		<key>#PatchVBios</key>
 		<false/>
-		<key>#FBName</key>
-		<string>Makakakakala</string>
 		<key>#VRAM</key>
 		<integer>1024</integer>
+		<key>#FBName</key>
+		<string>Makakakakala</string>
 		<key>#RadeonDeInit</key>
 		<true/>
 		<key>#PatchVBiosBytes</key>
@@ -607,12 +607,12 @@
 			<string>0x9221</string>
 			<key>#VideoInputSignal</key>
 			<string>0xA1</string>
+			<key>#VendorID</key>
+			<string>0x1006</string>
 			<key>#Custom</key>
 			<data>AP///////wAGECGSAAAAAAASAQOAIRV4CunVmVlTjigmUFQAAAABAQEBAQEBAQEBAQEBAQEB3iGgcFCEHzAgIFYAS88QAAAY3iGgcFCEHzAgIFYAS88QAAAAAAAA/gBXNjU3RwAxNTRXUDEKAAAA/gAjMz1IZYSq/wIBCiAgAJo=</data>
 			<key>#Inject</key>
 			<true/>
-			<key>#VendorID</key>
-			<string>0x1006</string>
 		</dict>
 		<key>#display-cfg</key>
 		<string>03010300FFFF0001</string>
@@ -873,6 +873,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x9</string>
+		<key>NoRomInfo</key>
+		<true/>
 		<key>BiosVersion</key>
 		<string>MBP152.88Z.F000.B00.2101062036</string>
 		<key>BoardManufacturer</key>
