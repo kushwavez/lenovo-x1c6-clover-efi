@@ -15,7 +15,7 @@
 - Create a macOS USB Installer with any method you now.
     - For creating Big Sur Installer USB on Windows, use my guide: <a href="https://www.insanelymac.com/forum/topic/346703-guide-creating-clover-macos-big-sur-installer-usb-on-windows/" target="_blank">[GUIDE] Creating Clover macOS Big Sur Installer USB on Windows</a>
     - On macOS you can download the macOS Installer from App Store, or with <a href="https://github.com/corpnewt/gibMacOS" target="_blank">gibMacOS</a>, and create the USB Installer with the official <a href="https://support.apple.com/en-in/HT201372" target="_blank">"createinstallmedia"</a> method
-    - For Sierra and older you need to use the official .dmg from Apple’s website.
+    - On Windows you can create High Sierra - Catalina Installer USB with gibMacOS
 - Mount your USB’s EFI and paste my CLOVER and BOOT folder from my bootpack
 folder to it
     - On Windows you can mount your USB’s EFI with MiniTool Partition Wizard
