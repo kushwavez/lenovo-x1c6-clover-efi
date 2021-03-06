@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17D47</string>
+	<string>19H524</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,35 +17,35 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2.5</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>9</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9A1004</string>
+	<string>11E801a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17A360</string>
+	<string>17A315g</string>
 	<key>DTSDKName</key>
 	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0901</string>
+	<string>1170</string>
 	<key>DTXcodeBuild</key>
-	<string>9A1004</string>
+	<string>11E801a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>rtsx_softc</key>
+		<key>Sinetek_rtsx</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.sinet3k.Sinetek-rtsx</string>
 			<key>IOClass</key>
-			<string>rtsx_softc</string>
+			<string>Sinetek_rtsx</string>
 			<key>IOKitDebug</key>
 			<integer>65535</integer>
 			<key>IOPCIMatch</key>
@@ -56,8 +56,10 @@
 			<string>IOPCIDevice</string>
 		</dict>
 	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 sinetek. All rights reserved.</string>
+	<string>Copyright © 2017 sinetek (modified by cholonam). All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOPCIFamily</key>

@@ -31,7 +31,7 @@
 				<key>FixADP1</key>
 				<false/>
 				<key>FixAirport</key>
-				<false/>
+				<true/>
 				<key>FixDarwin</key>
 				<false/>
 				<key>FixDarwin7</key>
@@ -81,23 +81,31 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>SEVDSQ==</data>
-					<key>Replace</key>
-					<data>SU1FSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
+					<data>
+					WERTTQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -105,9 +113,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -115,9 +127,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FEcaT0lOSQ==</data>
+					<data>
+					FEcaT0lOSQ==
+					</data>
 					<key>Replace</key>
-					<data>FEcaWklOSQ==</data>
+					<data>
+					FEcaWklOSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -125,9 +141,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>hkJBVDA=</data>
+					<data>
+					hkJBVDA=
+					</data>
 					<key>Replace</key>
-					<data>hkJBVFg=</data>
+					<data>
+					hkJBVFg=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -135,9 +155,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUNfX0hXQUM=</data>
+					<data>
+					RUNfX0hXQUM=
+					</data>
 					<key>Replace</key>
-					<data>RUNfX1hXQUM=</data>
+					<data>
+					RUNfX1hXQUM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -145,9 +169,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R1BSVwI=</data>
+					<data>
+					R1BSVwI=
+					</data>
 					<key>Replace</key>
-					<data>WlBSVwI=</data>
+					<data>
+					WlBSVwI=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -155,9 +183,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1dBSwk=</data>
+					<data>
+					X1dBSwk=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwk=</data>
+					<data>
+					WldBSwk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -165,19 +197,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BUUw==</data>
+					<data>
+					X1BUUw==
+					</data>
 					<key>Replace</key>
-					<data>WlBUUw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Thunderbolt 3: RP09._INI to RP09.XINI for ICM disable</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X0lOSQ==</data>
-					<key>Replace</key>
-					<data>WElOSQ==</data>
+					<data>
+					WlBUUw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -185,49 +211,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FENHTlRGWQk=</data>
+					<data>
+					TlRGWQ==
+					</data>
 					<key>Replace</key>
-					<data>FENHWFRGWQk=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XHC1: _PS0 to XPS0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>FEIQX1BTMAg=</data>
-					<key>Replace</key>
-					<data>FEIQWFBTMAg=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XHC1: _PS3 to XPS3</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>FEY/X1BTMwg=</data>
-					<key>Replace</key>
-					<data>FEY/WFBTMwg=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Thunderbolt 3: RP09:_PS0 to RP09:XPS0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BTMA==</data>
-					<key>Replace</key>
-					<data>WFBTMA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Thunderbolt 3:  RP09:_PS3 to RP09:XPS3</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BTMw==</data>
-					<key>Replace</key>
-					<data>WFBTMw==</data>
+					<data>
+					WFRGWQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -235,19 +225,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1VQQw==</data>
+					<data>
+					X1VQQw==
+					</data>
 					<key>Replace</key>
-					<data>WFVQQw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _OSI to XOSI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X09TSQ==</data>
-					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WFVQQw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -255,9 +239,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>JV9DUlM=</data>
+					<data>
+					JV9DUlM=
+					</data>
 					<key>Replace</key>
-					<data>JVhDUlM=</data>
+					<data>
+					JVhDUlM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -265,9 +253,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>IgABeQA=</data>
+					<data>
+					IgABeQA=
+					</data>
 					<key>Replace</key>
-					<data>IgAAeQA=</data>
+					<data>
+					IgAAeQA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -275,9 +267,41 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>IgEAeQA=</data>
+					<data>
+					IgEAeQA=
+					</data>
 					<key>Replace</key>
-					<data>IgAAeQA=</data>
+					<data>
+					IgAAeQA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XHC1: _PS0 to XPS0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BTMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBTMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XHC1: _PS3 to XPS3</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BTMw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBTMw==
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -285,27 +309,61 @@
 		</dict>
 		<key>DisableASPM</key>
 		<false/>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Ist</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<true/>
 		<key>FixMCFG</key>
 		<true/>
 		<key>HaltEnabler</key>
 		<true/>
+		<key>RenameDevices</key>
+		<dict>
+			<key>_SB.PCI0.RP09._INI</key>
+			<string>XINI</string>
+			<key>_SB.PCI0.RP09._PS0</key>
+			<string>XPS0</string>
+			<key>_SB.PCI0.RP09._PS3</key>
+			<string>XPS3</string>
+			<key>_SB.PCI0.XHC.RHUB.HS01._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS02._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS03._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS04._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS05.WCAM._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS05._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS06._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS07._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS08.WCAM._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS08._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS09._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.HS10._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.SS01._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.SS02._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.SS03._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.SS04._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.SS05._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.PCI0.XHC.RHUB.SS06._UPC</key>
+			<string>XUPC</string>
+			<key>_SB.UBTC.NTFY</key>
+			<string>XTFY</string>
+			<key>_SB.UBTC._DSM</key>
+			<string>XDSM</string>
+		</dict>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -320,6 +378,32 @@
 			<key>PluginType</key>
 			<string>1</string>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-Darwin.aml</string>
+			<string>SSDT-INIT.aml</string>
+			<string>SSDT-AC.aml</string>
+			<string>SSDT-Battery.aml</string>
+			<string>SSDT-HWAC.aml</string>
+			<string>SSDT-EC.aml</string>
+			<string>SSDT-Sleep.aml</string>
+			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-ALS0.aml</string>
+			<string>SSDT-Keyboard.aml</string>
+			<string>SSDT-PWRB.aml</string>
+			<string>SSDT-DMAC.aml</string>
+			<string>SSDT-PMCR.aml</string>
+			<string>ssdt5.aml</string>
+			<string>SSDT-XHC1.aml</string>
+			<string>SSDT-TB-DSB0.aml</string>
+			<string>SSDT-TB-DSB1.aml</string>
+			<string>SSDT-TB-DSB2.aml</string>
+			<string>SSDT-TB-DSB2-XHC2.aml</string>
+			<string>SSDT-TB-DSB3.aml</string>
+			<string>SSDT-TB-DSB4.aml</string>
+			<string>SSDT-TB-DSB5.aml</string>
+			<string>SSDT-TB-DSB6.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -330,7 +414,7 @@
 		<key>Debug</key>
 		<true/>
 		<key>DefaultVolume</key>
-		<string></string>
+		<string>LastBootedVolume</string>
 		<key>DisableCloverHotkeys</key>
 		<false/>
 		<key>Legacy</key>
@@ -384,23 +468,41 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AADAhw==</data>
+				<data>
+				AADAhw==
+				</data>
 				<key>complete-modeset</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>complete-modeset-framebuffers</key>
-				<data>AAAAAAAAAAE=</data>
+				<data>
+				AAAAAAAAAAE=
+				</data>
 				<key>device-id</key>
-				<data>wIcAAA==</data>
+				<data>
+				wIcAAA==
+				</data>
 				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -550,52 +652,52 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>FirmwareFeatures</key>
-		<string>0xFD8FF426</string>
-		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF9FFF3F</string>
-		<key>BoardVersion</key>
-		<string>MacBookPro15,2</string>
-		<key>Manufacturer</key>
+		<key>BiosReleaseDate</key>
+		<string>01/06/2021</string>
+		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x9</string>
-		<key>NoRomInfo</key>
-		<true/>
 		<key>BiosVersion</key>
 		<string>MBP152.88Z.F000.B00.2101062036</string>
+		<key>Board-ID</key>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisAssetTag</key>
-		<string>Asset Tag#</string>
-		<key>PlatformFeature</key>
-		<string>0x32</string>
-		<key>Family</key>
-		<string>MacBook Pro</string>
-		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
 		<string>C02846104QXJH4RJA</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
-		<key>SmUUID</key>
-		<string>87F78C94-9E1E-44C2-9368-5D5BF1C35F88</string>
-		<key>Mobile</key>
-		<true/>
 		<key>BoardType</key>
 		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>MacBookPro15,2</string>
+		<key>ChassisAssetTag</key>
+		<string>Asset Tag#</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x9</string>
 		<key>EfiVersion</key>
 		<string>1554.80.3.0.0</string>
-		<key>SerialNumber</key>
-		<string>C02XPYYJJHCC</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFD8FF426</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
-		<key>BiosReleaseDate</key>
-		<string>01/06/2021</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<true/>
+		<key>NoRomInfo</key>
+		<true/>
+		<key>PlatformFeature</key>
+		<string>0x32</string>
+		<key>ProductName</key>
+		<string>MacBookPro15,2</string>
+		<key>SerialNumber</key>
+		<string>C02XPYYJJHCC</string>
+		<key>SmUUID</key>
+		<string>87F78C94-9E1E-44C2-9368-5D5BF1C35F88</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
