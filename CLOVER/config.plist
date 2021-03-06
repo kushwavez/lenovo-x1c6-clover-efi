@@ -393,7 +393,6 @@
 			<string>SSDT-PWRB.aml</string>
 			<string>SSDT-DMAC.aml</string>
 			<string>SSDT-PMCR.aml</string>
-			<string>ssdt5.aml</string>
 			<string>SSDT-XHC1.aml</string>
 			<string>SSDT-TB-DSB0.aml</string>
 			<string>SSDT-TB-DSB1.aml</string>
