@@ -2,10 +2,10 @@
 ## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Big Sur
 ## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Big Sur 11 - Windows 10]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 <p align="center">
-<img src="https://i.ibb.co/2FTNg5t/lenovo-x1-carbon-6th-20kh-png-45213fcfbc31a832fd51995162ddf9c3.png">
+<img src="https://i.ibb.co/nCGxVg1/lenovo-x1c6-jpg-a19b34d6546991497d48cf556fc07382.jpg">
 </p>
 <p align="center"><b>Lenovo ThinkPad X1 Carbon 6th Gen</b></p>
-<p align=center>macOS Install Instructions (Clover v5130)</p>
+<p align=center>macOS Install Instructions</p>
 <p>For specs, notes, other informations see the linked Insanelymac guide</p>
 <p align="center">
 <img src="https://i.ibb.co/jv9SkRp/Screenshot-2021-02-14-at-20-24-31.png">
