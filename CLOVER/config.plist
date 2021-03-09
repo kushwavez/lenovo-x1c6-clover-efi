@@ -207,20 +207,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Thunderbolt 3: NTFY to XTFY</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TlRGWQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFRGWQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>XHC1: _UPC to XUPC</string>
 					<key>Disabled</key>
 					<false/>
@@ -323,46 +309,6 @@
 			<string>XPS0</string>
 			<key>_SB.PCI0.RP09._PS3</key>
 			<string>XPS3</string>
-			<key>_SB.PCI0.XHC.RHUB.HS01._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS02._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS03._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS04._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS05.WCAM._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS05._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS06._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS07._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS08.WCAM._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS08._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS09._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.HS10._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.SS01._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.SS02._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.SS03._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.SS04._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.SS05._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.PCI0.XHC.RHUB.SS06._UPC</key>
-			<string>XUPC</string>
-			<key>_SB.UBTC.NTFY</key>
-			<string>XTFY</string>
-			<key>_SB.UBTC._DSM</key>
-			<string>XDSM</string>
 		</dict>
 		<key>SSDT</key>
 		<dict>
