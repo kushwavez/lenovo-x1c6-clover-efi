@@ -305,10 +305,6 @@
 		<dict>
 			<key>_SB.PCI0.RP09._INI</key>
 			<string>XINI</string>
-			<key>_SB.PCI0.RP09._PS0</key>
-			<string>XPS0</string>
-			<key>_SB.PCI0.RP09._PS3</key>
-			<string>XPS3</string>
 		</dict>
 		<key>SSDT</key>
 		<dict>
