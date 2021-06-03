@@ -31,7 +31,7 @@
 				<key>FixADP1</key>
 				<false/>
 				<key>FixAirport</key>
-				<true/>
+				<false/>
 				<key>FixDarwin</key>
 				<false/>
 				<key>FixDarwin7</key>
@@ -43,11 +43,11 @@
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
-				<false/>
+				<true/>
 				<key>FixIDE</key>
 				<false/>
 				<key>FixIPIC</key>
-				<false/>
+				<true/>
 				<key>FixIntelGfx</key>
 				<false/>
 				<key>FixLAN</key>
@@ -55,7 +55,7 @@
 				<key>FixMutex</key>
 				<false/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
 				<key>FixRegions</key>
 				<false/>
 				<key>FixS3D</key>
@@ -67,7 +67,7 @@
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixTMR</key>
-				<false/>
+				<true/>
 				<key>FixUSB</key>
 				<false/>
 				<key>FixWAK</key>
@@ -81,45 +81,13 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change _DSM to XDSM</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0RTTQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WERTTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
+					<data>SUdQVQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -127,13 +95,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					FEcaT0lOSQ==
-					</data>
+					<data>FEcaT0lOSQ==</data>
 					<key>Replace</key>
-					<data>
-					FEcaWklOSQ==
-					</data>
+					<data>FEcaWklOSQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -141,13 +105,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					hkJBVDA=
-					</data>
+					<data>hkJBVDA=</data>
 					<key>Replace</key>
-					<data>
-					hkJBVFg=
-					</data>
+					<data>hkJBVFg=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -155,13 +115,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUNfX0hXQUM=
-					</data>
+					<data>RUNfX0hXQUM=</data>
 					<key>Replace</key>
-					<data>
-					RUNfX1hXQUM=
-					</data>
+					<data>RUNfX1hXQUM=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -169,13 +125,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R1BSVwI=
-					</data>
+					<data>R1BSVwI=</data>
 					<key>Replace</key>
-					<data>
-					WlBSVwI=
-					</data>
+					<data>WlBSVwI=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -183,13 +135,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
+					<data>X1dBSwk=</data>
 					<key>Replace</key>
-					<data>
-					WldBSwk=
-					</data>
+					<data>WldBSwk=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -197,13 +145,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1BUUw==
-					</data>
+					<data>X1BUUw==</data>
 					<key>Replace</key>
-					<data>
-					WlBUUw==
-					</data>
+					<data>WlBUUw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -211,55 +155,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1VQQw==
-					</data>
+					<data>X1VQQw==</data>
 					<key>Replace</key>
-					<data>
-					WFVQQw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>HPET _CRS to XCRS Rename</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					JV9DUlM=
-					</data>
-					<key>Replace</key>
-					<data>
-					JVhDUlM=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>RTC IRQ 8 Patch</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					IgABeQA=
-					</data>
-					<key>Replace</key>
-					<data>
-					IgAAeQA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>TIMR IRQ 0 Patch</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					IgEAeQA=
-					</data>
-					<key>Replace</key>
-					<data>
-					IgAAeQA=
-					</data>
+					<data>WFVQQw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -267,13 +165,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1BTMA==
-					</data>
+					<data>X1BTMA==</data>
 					<key>Replace</key>
-					<data>
-					WFBTMA==
-					</data>
+					<data>WFBTMA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -281,13 +175,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1BTMw==
-					</data>
+					<data>X1BTMw==</data>
 					<key>Replace</key>
-					<data>
-					WFBTMw==
-					</data>
+					<data>WFBTMw==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -409,41 +299,23 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AADAhw==
-				</data>
+				<data>AADAhw==</data>
 				<key>complete-modeset</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>complete-modeset-framebuffers</key>
-				<data>
-				AAAAAAAAAAE=
-				</data>
+				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
-				<data>
-				wIcAAA==
-				</data>
+				<data>wIcAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
+				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -529,8 +401,6 @@
 		<false/>
 		<key>DisableLinkeditJettison</key>
 		<true/>
-		<key>DisableRtcChecksum</key>
-		<false/>
 		<key>DisableSingleUser</key>
 		<false/>
 		<key>DisableVariableWrite</key>
@@ -561,8 +431,6 @@
 		<false/>
 		<key>ProtectUefiServices</key>
 		<false/>
-		<key>ProvideConsoleGopEnable</key>
-		<true/>
 		<key>ProvideCustomSlide</key>
 		<false/>
 		<key>ProvideMaxSlide</key>
