@@ -9,7 +9,7 @@
 		<key>DSDT</key>
 		<dict>
 			<key>Debug</key>
-			<true/>
+			<false/>
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
@@ -192,10 +192,12 @@
 		<key>HaltEnabler</key>
 		<true/>
 		<key>RenameDevices</key>
-		<dict>
-			<key>_SB.PCI0.RP09._INI</key>
-			<string>XINI</string>
-		</dict>
+		<array>
+			<dict>
+				<key>_SB.PCI0.RP09._INI</key>
+				<string>XINI</string>
+			</dict>
+		</array>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -239,11 +241,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100</string>
+		<string>-v</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
-		<true/>
+		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>DisableCloverHotkeys</key>
@@ -373,7 +375,7 @@
 		<key>AppleRTC</key>
 		<false/>
 		<key>Debug</key>
-		<true/>
+		<false/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>EightApple</key>
@@ -437,6 +439,8 @@
 		<integer>0</integer>
 		<key>RebuildAppleMemoryMap</key>
 		<false/>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
 		<key>SetupVirtualMap</key>
 		<true/>
 		<key>SignalAppleOS</key>
@@ -453,7 +457,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0xfff</string>
+		<string>0xFFF</string>
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
@@ -462,17 +466,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>01/06/2021</string>
+		<string>11/16/2021</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2101062036</string>
+		<string>MBP152.88Z.F000.B00.2111162120</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02846104QXJH4RJA</string>
+		<string>C02832700J9JH4RCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -484,7 +488,11 @@
 		<key>ChassisType</key>
 		<string>0x9</string>
 		<key>EfiVersion</key>
-		<string>1554.80.3.0.0</string>
+		<string>1715.60.5.0.0</string>
+		<key>ExtendedFirmwareFeatures</key>
+		<string>0x00000008FD8FF426</string>
+		<key>ExtendedFirmwareFeaturesMask</key>
+		<string>0x00000008FF9FFF3F</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -504,16 +512,14 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XPYYJJHCC</string>
+		<string>C02X6FZJJHCC</string>
 		<key>SmUUID</key>
-		<string>87F78C94-9E1E-44C2-9368-5D5BF1C35F88</string>
+		<string>093198BB-914E-4839-B255-28546939CE09</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>InjectKexts</key>
-		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
