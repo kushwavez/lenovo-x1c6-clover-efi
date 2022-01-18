@@ -1,19 +1,93 @@
-#  Lenovo ThinkPad X1 Carbon 6th Gen [Big Sur 11 - Windows 10]
-## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Big Sur
-## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Big Sur 11 - Windows 10]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
+#  Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12.1 - Windows 11]
+## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Monterey 12
+## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 <p align="center">
 <img src="https://i.ibb.co/MNcPxHf/lenovo-x1c6.png">
 </p>
 <p align="center"><b>Lenovo ThinkPad X1 Carbon 6th Gen</b></p>
-<p align=center>macOS Install Instructions</p>
-<p>For specs, notes, other informations see the linked Insanelymac guide</p>
+<p>Specifications:</p>
+
+- BIOS: v1.50
+- CPU: i7-8650U (Kaby Lake-R, 2.1 GHz up to 4.2 GHz, Quad-Core)
+- GPU: Intel UHD 620
+- Display: WQHD 2560x1440 (non-touch) 14" 300 nit
+- RAM: 16 GB (2x8) DDR3 2133MHz
+- Audio: ALC3286
+- SSD: WDC PC SN720 SDAQNTW-512G-1001
+- WiFi & Bluetooth: Intel AC-8265 M.2 (replaced to BCM94360CS2 with NGFF M.2 adapter)
+- Fingerprint reader
+- HD webcam
+- Multigesture SMBus/RMI Synaptics touchpad with 3 buttons
+- 2 level Backlight keyboard
+- 57 Whr Battery
+- Connectors:
+  - 2x USB-Type C - Thunderbolt 3
+  - 2x USB 3.1 Gen 1 (1x USB charging)
+  - 1x Ethernet dongle (Intel I219V4 PCI-e)
+  - 1x HDMI
+  - 3.5mm combo-jack audio
+  
 <p align="center">
-<img src="https://i.ibb.co/jv9SkRp/Screenshot-2021-02-14-at-20-24-31.png">
+<img src="https://user-images.githubusercontent.com/33935034/150013996-2dec891d-1bbd-46c8-98a0-ab5eea56858b.png">
 </p>
+
+## BIOS settings:
+- Secure Boot: Disabled
+- UEFI: Enabled
+- CSM: Disabled
+- Virtualization, VT-d: Enabled
+- Hyper-Threading: Enabled
+- Anti-Theft: Disabled
+- Intel SGX: Software Controlled
+- Disable Fingerprint at I/O
+- Thunderbolt device: Enabled
+- For Thunderbolt 3 hot-plug (higher power consumption):
+  - Thunderbolt BIOS Assist Mode: Disabled
+  - Security Level: No security
+  - Support in Pre Boot Environment: Disabled
+- For Thunderbolt 3 without hot-plug (lower power consumption but need to plug your device before boot)
+  - Thunderbolt BIOS Assist Mode: Enabled
+
+## What is working?
+- AirDrop, Handoff (only with Broadcom cards)
+- iCloud, Messages, App Store, FaceTime, etc.
+- Instant WiFi Hotspot with iPhone (only with original Apple Broadcom cards, such as BCM94360CS2)
+- Intel UHD 620 (QE/CI, hardware decode/encode, VP9, HDMI)
+- Sound (incl. combo-jack, HDMI out)
+- Thunderbolt 3 (with hot-plug support)
+- USB ports
+- Ethernet dongle
+- TrackPad, TrackPoint and Keyboard (incl. native multi-gestures, FN keys)
+- FileVault
+- Battery (~0.5 W when TB3 hot-plug is disabled, ~2W when enabled)
+- Sleep
+- Power Management
+- Webcam
+- SD card reader
+
+## What isn't working?
+- Fingerprint reader
+- Hibernation
+  - I think it's fixable, but just not worth the trouble for me. Just use normal sleep (hibernationmode=3) like on real MacBooks
+  
+## Issues:
+- Although we have OpenIntelWireless for Intel WiFi, it’s quite unusable in my case (v1.1.0). It’s really slow (4 MB/s) and disconnecting quite often, the ping is also really high sometimes (spiking up to ~3000ms when pinging google.com). Sleep also breaks the connection. For reconnecting I have to reboot the whole system. Bluetooth quality is also really bad unfortunately, also disconnecting quite often.
+  - I suggest everyone to just get a compatible original Apple BCM94360CS2 with an adapter for OOB support, excellent speed, Instant Hotspot, AirDrop & Handoff support and for best Bluetooth quality
+    - (you can buy these cards from ebay, Aliexpress or Amazon)
+- With BCM94360NG I have a strange issue where the speed/rate is capped at 434 mbit/s ~30 MB/s and can only reach 866 mbit/s ~60 MB/s if I RESTART directly from Windows. Unfortunately isn't fixable, so if you really need high speed just go for the BCM94360CS2 instead, or BCM94352Z (with AirportBrcmFixup.kext)
+- HDMI isn't working if you start the system with plugged in, disconnect before start and reconnect it after macOS is up and running
+- HDMI breaks after sleep/wake, need to re-plug
+- Audio sometimes just goes blank at random, combo-jack also doesn't recognise the combo-jack sometimes (garbled sound output): A sleep/wake solves the problem most of the time, issue needs to be debugged and reported to the Acidanthera team
+- Thunderbolt 3 (I only have an ADT-Link R43SG-TB3 device with RX 470, so maybe other devices are good, but I don't have more TB3 devices to test with):
+  - If you disconnect the eGPU the notebook will freeze (high CPU usage), you need to restart
+    - I really think that this is an OS issue
+  - After sleep hot-plug is not working with the TB3 eGPU (device not detected)
+    - Workaround: Plug the TB3 in, put the notebook into sleep, wake it up. It may fail sometimes, try it again if that is the case
+
 
 ## Installation:
 - Create a macOS USB Installer with any method you now.
-    - For creating Big Sur Installer USB on Windows, use my guide: <a href="https://www.insanelymac.com/forum/topic/346703-guide-creating-clover-macos-big-sur-installer-usb-on-windows/" target="_blank">[GUIDE] Creating Clover macOS Big Sur Installer USB on Windows</a>
+    - For creating Monterey Installer USB on Windows, use my guide: <a href="https://www.insanelymac.com/forum/topic/346703-guide-creating-clover-macos-big-sur-installer-usb-on-windows/" target="_blank">[GUIDE] Creating Clover macOS Monterey Installer USB on Windows</a>
     - On macOS you can download the macOS Installer from App Store, or with <a href="https://github.com/corpnewt/gibMacOS" target="_blank">gibMacOS</a>, and create the USB Installer with the official <a href="https://support.apple.com/en-in/HT201372" target="_blank">"createinstallmedia"</a> method
     - On Windows you can create High Sierra - Catalina Installer USB with gibMacOS
 - Mount your USB’s EFI and paste my CLOVER and BOOT folder from my bootpack
@@ -26,7 +100,7 @@ folder to it
  
 Example Structure:
 <p align=center>
-    <img src="https://i.ibb.co/5FZthw6/Picture-1.png">
+    <img src="https://user-images.githubusercontent.com/33935034/150014815-9ff78610-aa98-45ad-9fe9-75b4d2c73886.png">
 </p>
 
 - After finished, next step is to boot the Installer USB
@@ -34,7 +108,7 @@ Example Structure:
     - In Clover, select “Options” below the partitions, select “Configs”, then select “config_debug.plist” 
 - Install macOS 
     - Don’t forget to boot from your USB after restarts 
-        - If you install Big Sur boot from Preboot only! 
+        - If you install Monterey boot from Preboot only! 
 - After installing you need to mount your USB’s EFI and your System Drive’s EFI then copy the CLOVER and BOOT folder to your System Drive’s EFI  
     - (again, if there is no EFI folder, you need to create it first) 
 - Unmount and remove your USB Installer and restart your system 
