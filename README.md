@@ -1,4 +1,4 @@
-#  Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12.1 - Windows 11]
+#  Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]
 ## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Monterey 12
 ## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 <p align="center">
@@ -69,18 +69,18 @@
 - Fingerprint reader
 - Hibernation
   - I think it's fixable, but just not worth the trouble for me. Just use normal sleep (hibernationmode=3) like on real MacBooks
+- Original Samsung PM NVMe SSD
+  - Causing kernel panics. Not fixable, replace your drive with an aftermarket one. I used KINGSTON A2000 and WDC PC SN720, but feel free to choose anything other than Samsung
   
 ## Issues:
-- Although we have OpenIntelWireless for Intel WiFi, it’s quite unusable in my case (v1.1.0). It’s really slow (4 MB/s) and disconnecting quite often, the ping is also really high sometimes (spiking up to ~3000ms when pinging google.com). Sleep also breaks the connection. For reconnecting I have to reboot the whole system. Bluetooth quality is also really bad unfortunately, also disconnecting quite often.
-  - I suggest everyone to just get a compatible original Apple BCM94360CS2 with an adapter for OOB support, excellent speed, Instant Hotspot, AirDrop & Handoff support and for best Bluetooth quality
-    - (you can buy these cards from ebay, Aliexpress or Amazon)
-- With BCM94360NG I have a strange issue where the speed/rate is capped at 434 mbit/s ~30 MB/s and can only reach 866 mbit/s ~60 MB/s if I RESTART directly from Windows. Unfortunately isn't fixable, so if you really need high speed just go for the BCM94360CS2 instead, or BCM94352Z (with AirportBrcmFixup.kext)
-- HDMI isn't working if you start the system with plugged in, disconnect before start and reconnect it after macOS is up and running
+- With Intel wifi the Bluetooth is not functioning properly, AirDrop is not working. Recommended to replace it with an original Apple BCM94360CS2 card to get fully-working functionality like on real Macs
+- HDMI isn't working if you start the system with plugged in, disconnect before start and reconnect it after macOS is up and running. 
+  - Fixable with EDID patch
 - HDMI breaks after sleep/wake, need to re-plug
-- Audio sometimes just goes blank at random, combo-jack also doesn't recognise the combo-jack sometimes (garbled sound output): A sleep/wake solves the problem most of the time, issue needs to be debugged and reported to the Acidanthera team
+  - Fixable with EDID patch
+- Audio sometimes just goes blank at random (rarely): A quick lid close/open solves this, issue needs to be debugged and reported to the Acidanthera team
 - Thunderbolt 3 (I only have an ADT-Link R43SG-TB3 device with RX 470, so maybe other devices are good, but I don't have more TB3 devices to test with):
   - If you disconnect the eGPU the notebook will freeze (high CPU usage), you need to restart
-    - I really think that this is an OS issue
   - After sleep hot-plug is not working with the TB3 eGPU (device not detected)
     - Workaround: Plug the TB3 in, put the notebook into sleep, wake it up. It may fail sometimes, try it again if that is the case
 
@@ -119,7 +119,7 @@ Example Structure:
 
 <p align=center>That’s it!</p>
 <p align=center><b> Happy Hackintoshing!  </b></p>
-<p align=center>2021</p>
+<p align=center>2022</p>
 <p align=center>Insanelymac - <a href="https://www.insanelymac.com/forum/profile/2210435-kushwavez/" target="_blank">@kushwavez</a></p>
 <p align=center>GitHub - <a href="https://github.com/kushwavez" target="_blank">kushwavez</a></p>
 <p align=center>Reddit - <a href="https://www.reddit.com/user/kushwavez" target="_blank">u/kushwavez</a></p>

@@ -458,6 +458,8 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0xFFF</string>
+		<key>HWTarget</key>
+		<string>J610AP</string>
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
