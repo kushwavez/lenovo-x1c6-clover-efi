@@ -118,6 +118,7 @@ Example Structure:
 - Download <a href="https://github.com/zhen-zen/YogaSMC">YogaSMC.app</a> to manage your fan speed, charging threshold, other SMC related things
 
 <p align=center>That’s it!</p>
+<p align=center>Credit for <a href=https://github.com/tylernguyen>tylernguyen</a> for his hard work for creating SSDTs for Thunderbolt 3, he did an excellent job. Check out his work on the OpenCore side if you want</p>
 <p align=center><b> Happy Hackintoshing!  </b></p>
 <p align=center>2022</p>
 <p align=center>Insanelymac - <a href="https://www.insanelymac.com/forum/profile/2210435-kushwavez/" target="_blank">@kushwavez</a></p>
