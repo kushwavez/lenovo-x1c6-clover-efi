@@ -562,6 +562,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+	    <key>CustomUUID</key>
+        <string>093198BB-914E-4839-B255-28546939CE09</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>

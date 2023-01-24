@@ -303,7 +303,7 @@
 		<key>StrictHibernate</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<integer>1</integer>
 	</dict>
@@ -390,11 +390,11 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>4096×2160</string>
+		<string>1920x1080</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>Clovy</string>
+		<string>LCLOVER</string>
 		<key>Timezone</key>
 		<integer>3</integer>
 	</dict>
@@ -560,8 +560,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-	    <key>CustomUUID</key>
-        <string>093198BB-914E-4839-B255-28546939CE09</string>
+		<key>CustomUUID</key>
+		<string>093198BB-914E-4839-B255-28546939CE09</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
