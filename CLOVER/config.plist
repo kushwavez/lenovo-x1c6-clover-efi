@@ -82,102 +82,142 @@
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>R0ZYMA==</data>
 					<key>Replace</key>
 					<data>SUdQVQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>INIT: OINIT to ZINI</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>FEcaT0lOSQ==</data>
 					<key>Replace</key>
 					<data>FEcaWklOSQ==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Battery: BAT0 to BATX</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>hkJBVDA=</data>
 					<key>Replace</key>
 					<data>hkJBVFg=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Battery: Change HWAC to XWAC EC reads</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>RUNfX0hXQUM=</data>
 					<key>Replace</key>
 					<data>RUNfX1hXQUM=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>S3 Sleep: GRPW to ZRPW</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>R1BSVwI=</data>
 					<key>Replace</key>
 					<data>WlBSVwI=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>S3 Sleep: _WAK to ZWAK(1,S)</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
 					<data>WldBSwk=</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>S3 Sleep: _PTS to ZPTS</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1BUUw==</data>
 					<key>Replace</key>
 					<data>WlBUUw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>XHC1: _UPC to XUPC</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1VQQw==</data>
 					<key>Replace</key>
 					<data>WFVQQw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>XHC1: _PS0 to XPS0</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1BTMA==</data>
 					<key>Replace</key>
 					<data>WFBTMA==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>XHC1: _PS3 to XPS3</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>X1BTMw==</data>
 					<key>Replace</key>
 					<data>WFBTMw==</data>
+					<key>Skip</key>
+					<integer>0</integer>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -240,8 +280,6 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string></string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -400,7 +438,7 @@
 		<key>DevirtualiseMmio</key>
 		<false/>
 		<key>DisableIoMapper</key>
-		<false/>
+		<true/>
 		<key>DisableLinkeditJettison</key>
 		<true/>
 		<key>DisableSingleUser</key>
@@ -463,7 +501,7 @@
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>pEog2KL0</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
