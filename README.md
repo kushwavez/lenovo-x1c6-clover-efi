@@ -1,5 +1,26 @@
-#  Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]
-## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Monterey 12
+#  Lenovo ThinkPad X1 Carbon 6th Gen [Ventura 13 - Windows 11]
+## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Ventura 13
+
+This project is forked from <a href="https://github.com/kushwavez/lenovo-x1c6-clover-efi">kushwavez/lenovo-x1c6-clover-efi</a>, the Clover is updated to v5151 to support upgrading macOS to Ventura 13.
+
+Basic system function looks good, but it has not been tested for a long time. Please understand me that a noob in both GitHub and Hackintosh.
+
+Additionally, a simple ThinkPad theme in Clover interface is added, which can be applied by replacing config.plist files.
+
+<p>Differences in specifications:</p>
+
+- BIOS: v1.53
+- Display: FHD 1920x1080 (non-touch) 14"
+- RAM: 16 GB (2x8) LPDDR3 2133MHz
+- Audio: ALC285
+- SSD: WDC Blue SN570 500GB SSD
+- WWAN: Broadcom BCM4360 (not work on macOS)
+- HD Windows Hello webcam
+
+# The following is the previous content
+
+---
+
 ## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 <p align="center">
 <img src="https://i.ibb.co/MNcPxHf/lenovo-x1c6.png">
