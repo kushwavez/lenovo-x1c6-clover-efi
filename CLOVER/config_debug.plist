@@ -9,7 +9,7 @@
 		<key>DSDT</key>
 		<dict>
 			<key>Debug</key>
-			<false/>
+			<true/>
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
@@ -281,11 +281,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v</string>
+		<string>-v debug=0x100</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>DisableCloverHotkeys</key>
@@ -415,7 +415,7 @@
 		<key>AppleRTC</key>
 		<false/>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>EightApple</key>
@@ -503,7 +503,7 @@
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
-		<data>pEog2KL0</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
