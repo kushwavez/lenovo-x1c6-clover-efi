@@ -28,7 +28,7 @@
   - 3.5mm combo-jack audio
 
 <p align="center">
-<img src="https://github.com/kushwavez/lenovo-x1c6-clover-efi/assets/33935034/5992bfe7-38d8-459b-a3e6-975c6f5ad981">
+<img width="392" alt="Screenshot 2024-04-28 at 13 27 51" src="https://github.com/kushwavez/lenovo-x1c6-clover-efi/assets/33935034/a04a05f3-5236-43df-b268-98e6363619e6">
 </p>
 
 ## BIOS settings:
