@@ -1,5 +1,5 @@
-#  Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]
-## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Monterey 12
+#  Lenovo ThinkPad X1 Carbon 6th Gen [Ventura 13 - Windows 11]
+## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Ventura 13
 ## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 <p align="center">
 <img src="https://i.ibb.co/MNcPxHf/lenovo-x1c6.png">
@@ -26,7 +26,7 @@
   - 1x Ethernet dongle (Intel I219V4 PCI-e)
   - 1x HDMI
   - 3.5mm combo-jack audio
-  
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/33935034/150013996-2dec891d-1bbd-46c8-98a0-ab5eea56858b.png">
 </p>
