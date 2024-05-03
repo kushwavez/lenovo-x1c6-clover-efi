@@ -1,6 +1,6 @@
 #  Lenovo ThinkPad X1 Carbon 6th Gen [Ventura 13 - Windows 11]
 ## Clover EFI for Lenovo ThinkPad X1 Carbon 6th Gen - macOS Ventura 13
-## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Monterey 12 - Windows 11]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
+## Insanelymac: [[GUIDE] Lenovo ThinkPad X1 Carbon 6th Gen [Ventura 13 - Windows 11]](https://www.insanelymac.com/forum/topic/346368-guide-lenovo-thinkpad-x1-carbon-6th-gen-big-sur-11-windows-10/)
 <p align="center">
 <img src="https://i.ibb.co/MNcPxHf/lenovo-x1c6.png">
 </p>
